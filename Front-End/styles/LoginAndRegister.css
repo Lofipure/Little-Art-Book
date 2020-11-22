@@ -1,0 +1,42 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    margin: 5%;
+}
+
+.ant-input {
+    width: 200px !important;
+}
+
+.login-in-btn {
+    width: 100%;
+}
+
+.forget-link {
+    float: right;
+}
+
+.sing-up-btn {
+    width: 100%;
+}
+
+.ant-input {
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+.ant-form-item {
+    width: calc(90vw);
+}
+
+.ant-input {
+    display: inline-block !important;
+    width: 100% !important;
+}

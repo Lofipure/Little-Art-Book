@@ -1,0 +1,34 @@
+.detail-image {
+    width: 100vw;
+}
+
+.detail-title {
+    text-align: center;
+}
+
+.detail-paragraph {
+    padding-left: 0.5rem;
+}
+
+.detail-icon {
+    margin-right: .3rem;
+}
+
+.detail-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-detail-AR {
+    width: 80vw;
+    margin: 2rem auto;
+}
+
+.AR-frame {
+    border: none;
+}
+
+.AR-drawer {
+    height: 100%;
+}

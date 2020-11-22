@@ -1,0 +1,45 @@
+.main-container-real {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-content {
+    padding-top: 3.2rem;
+}
+
+.input-container {
+    margin: 5%;
+}
+
+.ant-input {
+    width: 200px !important;
+}
+
+.login-in-btn {
+    width: 100%;
+}
+
+.forget-link {
+    float: right;
+}
+
+.sing-up-btn {
+    width: 100%;
+}
+
+.ant-input {
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+.carousel-content {
+    height: 160px;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+    background: #aaa;
+}
+
+.carousel {
+    margin: .3 rem;
+}

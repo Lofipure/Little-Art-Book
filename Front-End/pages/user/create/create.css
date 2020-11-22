@@ -1,0 +1,20 @@
+.create-container {
+    padding: 1rem;
+}
+
+.main-container-create {
+    padding-top: 3.2rem;
+}
+
+.modal_inner_box {
+    height: 50vh;
+    overflow: auto;
+}
+
+.create-item {
+    margin-top: .7rem;
+}
+
+.show-button {
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<script src="./aframe.min.js"></script>
+<script src="./aframe-ar.js"></script>
+
+<body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+        <a-marker preset="hiro">
+            <a-entity position="0 0 0" scale="0.01 0.01 0.01" rotation="0 0 0" id="entity">
+            </a-entity>
+        </a-marker>
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+<script>
+    let reg = /\?data=([\s\S]*)/g;
+    let ARData = reg.exec(window.location.search)[1];
+    console.log(document.getElementById("entity"))
+    document.getElementById("entity").setAttribute("gltf-model", ARData)
+</script>
+
+</html>

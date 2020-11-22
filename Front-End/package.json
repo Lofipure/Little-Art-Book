@@ -1,0 +1,23 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^4.6.6",
+    "axios": "^0.20.0",
+    "babel-plugin-import": "^1.13.0",
+    "highlight.js": "^10.3.2",
+    "marked": "^1.2.3",
+    "next": "9.5.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "three": "^0.122.0"
+  }
+}
