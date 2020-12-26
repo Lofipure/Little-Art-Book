@@ -1,5 +1,5 @@
 .worker-short-description {
-    margin: 0.3rem 0.5rem;
+    margin: .6rem .5rem;
 }
 
 .workers_icons {
@@ -8,5 +8,5 @@
 
 .works_card_img {
     width: 60vw;
-    margin: 0 auto;
+    margin: .2rem auto;
 }

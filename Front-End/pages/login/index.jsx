@@ -64,9 +64,9 @@ const Login = () => {
                                 prefix={<LockOutlined />}
                                 onChange={(e) => { setPassword(e.target.value) }}></Input.Password>
                         </Form.Item>
-                        <Form.Item>
+                        {/* <Form.Item>
                             <a className="forget-link">忘记密码</a>
-                        </Form.Item>
+                        </Form.Item> */}
                         <Form.Item>
                             <Button type="primary"
                                 className="login-in-btn"

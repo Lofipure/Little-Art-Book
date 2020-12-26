@@ -4,7 +4,8 @@ import "./MainShow.css";
 const MainShow = () => {
     return (
         <div className="main-show-container">
-            MainShow
+            <div className="title-one text-container">欢迎您使用</div>
+            <div className="title-two text-container">小艺书</div>
         </div>
     )
 }

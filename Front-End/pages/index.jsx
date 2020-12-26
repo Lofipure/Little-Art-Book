@@ -5,9 +5,6 @@ import MainShow from "../components/MainShow/MainShow";
 
 import "../styles/Home.css";
 
-import Router from 'next/router'
-
-
 export default function Home() {
   return (
     <div className="root">

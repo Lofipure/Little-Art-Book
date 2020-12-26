@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import './index.css'
 import { Card } from 'antd'
 import Meta from 'antd/lib/card/Meta'
@@ -24,13 +24,13 @@ const Worker = (props) => {
         smartypants: false,
         highlight: code => hljs.highlightAuto(code).value
     });
-    
+
     useEffect(() => {
         setReal(props.short_description.replace(/<doubleFlag>/g, `"`));
     }, []);
 
     return (
-        <Card bordered hoverable cover={<img src={props.image_url} className="works_card_img"/>} className='worker-short-description' actions={[
+        <Card bordered hoverable cover={<img src={props.image_url} className="works_card_img" />} className='worker-short-description' actions={[
             <a onClick={() => { location.href = '/detail?workers_id=' + props.id }}><EnterOutlined className='workers_icons' />进来康康</a>
         ]}>
             <Meta title={props.name} description={

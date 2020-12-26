@@ -3,7 +3,7 @@ import Head from "next/head"
 import Navbar from "../../../components/MainNavbar/MainNavbar";
 import Works from "../../../components/Wroker/Worker";
 
-import "../../../styles/mainGlobals.css"
+import "../../../styles/mainGlobals.css";
 import axios from 'axios'
 
 import { Carousel } from "antd";
@@ -27,14 +27,14 @@ const Main = () => {
             <div className="main-content">
                 <div className="carousel">
                     <Carousel autoplay>
-                        <div key="1" className="carousel-content">小</div>
-                        <div key="2" className="carousel-content">艺</div>
-                        <div key="3" className="carousel-content">书</div>
+                        <div key="1" className="carousel-content">小艺书的简介或者其他</div>
+                        <div key="2" className="carousel-content">但是还没有想好写啥</div>
+                        <div key="3" className="carousel-content">那就算了先这样</div>
                     </Carousel>
                 </div>
                 {
                     virtualData.map((e, index) => (
-                        <Works {...e} key={index}/>
+                        <Works {...e} key={index} />
                     ))
                 }
             </div>

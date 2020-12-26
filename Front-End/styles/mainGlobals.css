@@ -34,10 +34,11 @@
 
 .carousel-content {
     height: 160px;
+    font-size: 1.4rem;
     color: #fff;
     line-height: 160px;
     text-align: center;
-    background: #aaa;
+    background-color: cornflowerblue;
 }
 
 .carousel {
